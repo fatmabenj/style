@@ -1,0 +1,57 @@
+header{
+    color: black;
+    top: 50px;
+    text-align: center;
+    height: 100px;
+    width: 900px;
+    background-color:rgb(255, 222, 228);
+}
+nav{
+    float: left;
+    height: 500px;
+    width: 300px;
+    background-color:  rgb(167, 176, 251);
+    border-radius: 0 50% 50% 0;
+}
+a {
+    /* Change the display of the navbar to make it inline. */
+    display:inline;
+    color:black;
+    padding: 14px 16px;
+    top: 40px;
+    text-decoration: none;
+}
+li{
+    margin-bottom: 50px;
+    /* Change the font to roboto. */
+    font-family: roboto;
+}
+ul{
+    margin-top: 210px;
+}
+li a:hover{
+    background-color:white;
+}
+section ul{
+    list-style-type: none;
+}
+ul li {
+    display: inline;
+}
+section{
+    position: absolute;
+    height: 500px;
+    width: 900px;
+    background-image: url("img5.jpg");
+}
+article{
+    margin-top: 100px;
+    margin-left: 400px;
+}
+footer{
+    background-color:rgb(116, 159, 239) ;
+    height: 70px;
+    width: 900px;
+    top:608px;
+    position: absolute;
+}
